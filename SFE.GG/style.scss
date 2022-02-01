@@ -1,0 +1,248 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.fab {
+    font-family: 'Font Awesome 5 Brands';
+}
+
+body {
+	background-color: #202230;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul {
+	list-style: none;
+}
+
+.hero-wrapper {
+	background-image: url("/images/banner_bg.png");
+	background-size: cover;
+	height: 100vh;
+}
+
+.wrapper {
+	padding: 1.5em;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	#logo {
+		font-weight: bold;
+		font-size: 2.5em;
+	}
+
+	ul {
+		display: flex;
+
+		li a {
+			padding: 0 1em;
+			font-size: 1.1em;
+			font-weight: 425;
+		}
+
+		li a:hover {
+			color: #b5b5b5;
+			transition: 0.3s;
+		}
+	}
+}
+
+.hero-content {
+	margin: 10em 0 2em;
+	display: block;
+	text-align: center;
+
+	h1 {
+		font-size: 4em;
+		margin-bottom: .3em;
+	}
+
+	p {
+		font-size: 1.1em;
+		margin-bottom: 5em;
+	}
+
+	.discord-button {
+		background-color: #202230;
+		font-size: 1.1em;
+		font-weight: 500;
+		color: #0F99B6;
+		padding: 1.5em;
+		border-radius: 10px;
+		transition: 0.3s;
+	}
+
+	.discord-button:hover {
+		color: white;
+	}
+}
+
+.gray-wrapper {
+	height: 150px;
+}
+
+.owners-wrapper {
+	background-color: #1A1C2C;
+	height: 120vh;
+
+	.wrapper {
+		display: block;
+		text-align: center;
+
+		h2 {
+			font-size: 3em;
+			margin: 1em 0 .3em;
+		}
+
+		p {
+			font-size: 1.1em;
+			margin-bottom: 2em;
+		}
+
+		ul {
+			display: flex;
+			justify-content: center;
+		}
+
+		ul li {
+			display: block;
+			margin: 10px;
+			background-color: black;
+			border-radius: 10px;
+			line-height: 1.5;
+			width: 300px;
+			padding: 30px 20px;
+
+			img {
+				height: 65px;
+				border-radius: 50%;
+				margin-bottom: 10px;
+			}
+
+			h1 {
+				font-size: 32px;
+				margin-bottom: 10px;
+			}
+
+			p {
+				font-size: 18px;
+				color: gray;
+			}
+		}
+	}
+}
+
+.minecraft-wrapper {
+	height: 100vh;
+	background-image: url("/images/cta_bg.png");
+	background-size: cover;
+
+	.wrapper {
+		display: block;
+		text-align: center;
+
+		h1 {
+			font-size: 3em;
+			margin: 5em 0 .3em;
+		}
+
+		p {
+			font-size: 1.1em;
+			margin-bottom: 3em;
+		}
+
+		span {
+			background-color: #202230;
+			font-size: 1.1em;
+			font-weight: 500;
+			color: #0F99B6;
+			padding: 1.5em;
+			border-radius: 10px;
+			transition: 0.3s;
+			cursor: pointer;
+	}
+
+		span:hover {
+			color: white;
+		}
+	}
+}
+
+.end-wrapper {
+	background-color: #1A1C2C;
+	height: 40vh;
+
+	.about-useful {
+		display: flex;
+		justify-content: space-between;
+
+		li {
+			width: 18em;
+		
+			h3 {
+				font-size: 1.5em;
+				margin: 2em 0 .5em;
+			}
+
+			p {
+				line-height: 1.5;
+				color: gray;
+			}
+
+			.useful-links {
+				line-height: 2;
+
+				a {
+					color: gray;
+				}
+				a:hover {
+					color: #0F99B6;
+				}
+			}
+
+		}
+	}
+}
+
+footer {
+	height: 10vh;
+	background-color: #1A1C2C;
+	
+	.wrapper {
+	display: flex;
+	justify-content: space-between;
+	
+		.copy {
+			color: gray;
+
+			a {
+				color: #0F99B6;
+				position: relative;
+			}
+
+			a::before {
+				content: '';
+				background: white;
+				width: 1050px;
+				height: 1px;
+				position: absolute;
+				top: -25px;
+				left: -465px;
+			}
+		}	
+	}
+}
