@@ -18,6 +18,7 @@
           align-items: center;
   height: 100%;
   width: 100%;
+  overflow: hidden;
   left: 0;
   right: 0;
   top: 0;
@@ -52,5 +53,9 @@
   100% {
     background-position: 0% 82%;
   }
+}
+
+img {
+  overflow: hidden;
 }
 /*# sourceMappingURL=main.css.map */
